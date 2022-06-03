@@ -4,7 +4,9 @@ package hr.modelo;
 
 // que significa implementa: indicando el codigo
 
-public class Cliente implements IPersona,IEnvioCorreo {
+import java.io.Serializable;
+
+public class Cliente implements IPersona,IEnvioCorreo, Serializable {
     private String nombre;
     private String direccion;
     private String contacto;

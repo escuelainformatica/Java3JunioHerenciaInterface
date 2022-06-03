@@ -27,7 +27,11 @@
 
 > Necesitamos tambien poder crear y mostrar clientes.
 
+## Interface
 
+* es un contrato.
+* es una generalizacion.
+* no se puede crear un espacio de memoria para la variable.
 
 ## Modelo Empleado
 
@@ -44,4 +48,10 @@
 * contacto
 * deuda
 
+
+# En JAVA, casi todas las tecnologias, se inician con la letra "J"
+
+* Cliente: clase de modelo -> POJO
+  * POJO Plain Old Java Object
+* EmpleadoSrv: clase de servicio
 
